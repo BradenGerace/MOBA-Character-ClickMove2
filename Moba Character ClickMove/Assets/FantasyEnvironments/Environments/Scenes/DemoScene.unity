@@ -376,19 +376,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 109564213}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 149180597}
-        m_TargetAssemblyTypeName: Abilities, Assembly-CSharp
-        m_MethodName: ButtonAbility1
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &144935739
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +446,7 @@ MonoBehaviour:
   targetCircle: {fileID: 650926234}
   indicatorRangeCircle: {fileID: 2089539599}
   ability2Canvas: {fileID: 252183458}
-  maxAbility2Distance: 15
+  maxAbility2Distance: 13
   abilityImage3: {fileID: 175289202}
   cooldown3: 6
   ability3: 101
@@ -1792,7 +1780,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 6, y: 6}
+  m_SizeDelta: {x: 8, y: 8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650926234
 MonoBehaviour:
@@ -3581,7 +3569,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
+  m_SizeDelta: {x: 18, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2089539599
 MonoBehaviour:
