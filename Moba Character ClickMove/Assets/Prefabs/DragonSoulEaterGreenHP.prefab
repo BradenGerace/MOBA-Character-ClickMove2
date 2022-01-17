@@ -731,6 +731,7 @@ GameObject:
   - component: {fileID: 5446465268637392594}
   - component: {fileID: 755725017877685312}
   - component: {fileID: 9126674757081804110}
+  - component: {fileID: 2998456617237316862}
   m_Layer: 0
   m_Name: DragonSoulEaterGreenHP
   m_TagString: Enemy
@@ -799,6 +800,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.2, y: 4.5, z: 7}
   m_Center: {x: 0, y: 2.25, z: 0}
+--- !u!114 &2998456617237316862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3915988015123733411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df05548f325b5af4f9351985d1c20b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  health: 75
+  attackDmg: 0
+  attackSpeed: 0
+  attackTime: 0
 --- !u!1 &4089409224153897638
 GameObject:
   m_ObjectHideFlags: 0
